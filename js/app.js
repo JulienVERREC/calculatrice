@@ -9,4 +9,9 @@ console.log(a + b);
 function soustraction(a, b){
 	return a - b;
 }
-console.log(a -b);
+console.log(a - b);
+
+function multiplication(a, b){
+	return a * b;
+}
+console.log(a * b);
