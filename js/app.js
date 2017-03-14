@@ -1,9 +1,55 @@
+
+  $("#activer").click(function affichage(){
+  var numero1 = prompt ("donner le premier chiffre");
+  var operation  = prompt ("opération à effectuer");
+  var numero2 = prompt ("donner le second chiffre");
+
+  numero1 = parseInt (numero1);
+  numero2 = parseInt (numero2);
+
+
+
+  switch (operation){
+
+    case '+':
+       resultat = numero1 + numero2;
+       break;
+
+    case '-':
+       resultat = numero1 - numero2;
+       break;
+
+    case '*':
+       resultat = numero1 * numero2;
+       break;
+
+    case '/':
+       resultat = numero1 / numero2;
+       break;
+   }
+
+   alert(resultat);
+
+    
+  });
+    
+
+
+
+
+
+
+
+
+
+/*
 //addition
 
 function addition(a, b) {
 	console.log(a + b);
 	return a + b;
 }
+
 //soustraction
 
 function soustraction(a, b){
@@ -29,6 +75,13 @@ function division(a, b){
 	return a / b;
 	}
 }
+}
+
+
+
+
+
+
 //test addition
         addition(5, 9)
 //test soustraction
@@ -39,3 +92,4 @@ function division(a, b){
         division(45, 5)
 //test division par 0
         division(6, 0)        
+*/
